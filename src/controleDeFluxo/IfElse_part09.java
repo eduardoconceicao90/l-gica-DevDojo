@@ -2,25 +2,18 @@ package controleDeFluxo;
 
 import java.util.Scanner;
 
-public class IfElse_part08 {
+public class IfElse_part09 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("*** CADASTRAMENTO ***");
         System.out.print("Digite o nome: ");
         String nome = scan.nextLine();
 
-        System.out.print("Digite a idade: ");
-        int idade = scan.nextInt();
-
-        if (idade <= 10) {
-            System.out.println("Nome: " + nome + ", Categoria Infantil");
-        } else if (idade > 10 && idade <= 15) {
-            System.out.println("Nome: " + nome + ", Categoria Juvenil");
-        } else if (idade >= 16 && idade <= 19) {
-            System.out.println("Nome: " + nome + ", Categoria Pré-adulto");
+        if (nome.isEmpty() || nome.equalsIgnoreCase("admin") || nome.equalsIgnoreCase("administrador")) { // Compara as String independente do Case-sensitive.
+            System.out.println("Usuário inválido!");
         } else {
-            System.out.println("Nome: " + nome + ", Categoria Adulto");
+            System.out.println(nome + " cadastrado com sucesso!");
         }
 
         scan.close();
