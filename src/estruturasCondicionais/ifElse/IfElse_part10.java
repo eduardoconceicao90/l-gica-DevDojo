@@ -1,4 +1,4 @@
-package controleDeFluxo;
+package estruturasCondicionais.ifElse;
 
 import java.util.Scanner;
 

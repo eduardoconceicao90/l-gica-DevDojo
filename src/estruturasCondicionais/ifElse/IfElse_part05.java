@@ -1,4 +1,4 @@
-package controleDeFluxo;
+package estruturasCondicionais.ifElse;
 
 public class IfElse_part05 {
     public static void main(String[] args) {

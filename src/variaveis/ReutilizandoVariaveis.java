@@ -1,3 +1,5 @@
+package variaveis;
+
 public class ReutilizandoVariaveis {
 
     public static void main(String[] args) {

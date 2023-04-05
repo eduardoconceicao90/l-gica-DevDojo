@@ -1,4 +1,4 @@
-package controleDeFluxo;
+package estruturasCondicionais.ifElse;
 
 import java.util.Scanner;
 
@@ -7,6 +7,7 @@ public class IfElse_part09 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("*** CADASTRAMENTO ***");
+
         System.out.print("Digite o nome: ");
         String nome = scan.nextLine();
 

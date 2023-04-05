@@ -1,3 +1,5 @@
+package variaveis;
+
 public class PorcentagemSalario {
 
     public static void main(String[] args) {
